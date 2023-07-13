@@ -1,0 +1,217 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style23.css">
+    <script src="https://kit.fontawesome.com/d87d2cd5cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <h1 style="font-size: 500%;">Rashid</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Front-end Developer</p>
+                <h1>Hi, I'm <span>Rashid</span><br> Ali From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-----About----->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img1/1669214869649.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! My name is Rashid. I’m doing graduation from the Galgotias University with a B.tech in Computer science and engineering. My college gives me best opportunities to explore the world and gain some knowledge from the existing technologies and find the solution of many problems related to software and applications.I’m on the lookout for an opportunity that’ll let me merge together my passion for Computer application and Software development, and kickstart a career in Software development. I enjoy the challenge of working with different types of people and coming up with solutions to difficult problems. It helps that I have a knack for staying calm during a storm!</p>
+
+                    <div class="tab-titles">
+                        <p class ="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class ="tab-links" onclick="opentab('experience')">Internship</p>
+                        <p class ="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            
+                            <li><span>Front-end Development</span><br>Front-end Development</li>
+                            <li><span>Java </span><br>Java Development</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experience">
+                        <ul>
+                            <li><span>2022-2023</span><br>Internship at Eduskill on Cyber Security by AICTE.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2019</span><br>10th from St Paul's Senior Secondary School</li>
+                            <li><span>2021</span><br>12th from St Paul's Senior Secondary School</li>
+                            <li><span>2022</span><br>Currently in 2nd year of B.Tech(CSE) from Galgotias University</li>
+                           
+
+                        </ul>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------services----------->
+    <div id="services">
+         <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design (UI design).</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Java Development</h2>
+                    <p>Developing applications and software using the Java programming language. </p>
+                    <a href="#">Learn more</a>
+                </div>
+              
+                
+
+
+            </div>
+         </div>
+    </div>
+    <!----------Portfolio------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img1/work-1.png" >
+                    <div class="layer">
+                        <h3>Social Media web</h3>
+                        <p>The web conects you to the talented people around the world.
+                           
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img1/work-2.png" >
+                    <div class="layer">
+                        <h3>Music websites</h3>
+                        <p>Music websites act as an online resume for most professional musicians and bands - but it has the potential to be so much more.
+                                                    </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img1/work-3.png" >
+                    <div class="layer">
+                        <h3>E-commerce websites </h3>
+                        <p>E-commerce websites allow consumers and businesses to buy and sell to one another on a designated platform.
+                           
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!---------contact--------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> </i>Rashidali11303@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i>9084636078</p>
+                    <div class="social-icons">
+
+                        <a href="https://twitter.com/RashidA35416874"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/ra_shid3698/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/rashid-ali-14a40323b/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="img1/Resume-Rashid--Ali (1)245.pdf" download class="btn btn2">Download CV</a>
+                </div>
+               
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit"  class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <a class="copyright"href="#">Copyright &copy; 2022 | Made with <i class="fa-solid fa-heart"></i> by Rashid Ali</a>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-content");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzUpBqJUpcKhXIzc2ESaE9s9TtvY1NJczjb85WUBcksAOZuDPMbUekIapO2KmXMwzD1VA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
+    
+</body>
+</html>
